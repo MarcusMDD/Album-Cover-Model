@@ -142,7 +142,7 @@ The model would often confuse doom and heavy metal with death metal, with 14 to 
 A similar level of confusion between specific genres also occurred between blues, rock and psychedelic rock
 ### Classification report
 
-[Figure1](images/Figure1.png)
+[Figure1](Images/Figure1.png)
    
 ## Summary 
 
