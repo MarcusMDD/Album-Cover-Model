@@ -33,7 +33,10 @@ Many of the genres contained images of vinyl sleeves. These are not images of al
 | Reggae           | <50                                |
 | Soul             | 50                                 |
 | Techno           | 50<                                |
-The genres of Techno, Soul, Grime and DnB had over 5% of their dataset comprised of vinyl sleeve images. This is to be expected, as many tracks from these genres were typically club mixes and never saw full commercial releases. Therefore, these genres were removed, leaving a final data set of 16 genres
+
+
+The genres of Techno, Soul, Grime and DnB had over 5% of their dataset comprised of vinyl sleeve images. This is to be expected, as many tracks from these genres were typically club mixes and never saw full commercial releases. Therefore, these genres were removed, leaving a final data set of 16 genres.
+
 ### Dataset pipeline 
 
 All images in the dataset of 14,000 plus were  300x300. In order to ensure that *all* image sizes were standardised, all images were sized to 300x300 before being converted into tensors. 
@@ -139,7 +142,7 @@ The model would often confuse doom and heavy metal with death metal, with 14 to 
 A similar level of confusion between specific genres also occurred between blues, rock and psychedelic rock
 ### Classification report
 
-  ![[Pasted image 20260907092143.png]]
+
    
 ## Summary 
 
