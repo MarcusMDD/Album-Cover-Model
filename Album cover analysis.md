@@ -53,9 +53,9 @@ After initial testing confirmed that solely storing the images and labels on the
 The original  model  began by feeding each batch through  4 convolutional  blocks , each containing: a convolutional layer, a batch normalisation layer, and a ReLU activation
 unit. 
 
-The progression of channels  in the convolutional layers were as follows: 3 ,32 ,64 ,128 ,256. This progression was chosen as a baseline because it would be able to drill into many characteristics of the image, without overfitting.  A batch normalisation layer was included in each block to provide stability and increase the ability for the model to generalise.(what does one do?)
+The progression of channels  in the convolutional layers were as follows: 3 ,32 ,64 ,128 ,256. This progression was chosen as a baseline because it would be able to drill into many characteristics of the image, without overfitting.  A batch normalisation layer was included in each block to provide stability and increase the ability for the model to generalise. This is done by subtracting the batch's mean and dividing by it's standard deviation.
 
-After these layers, the batch was fed through a global average pooling layer to make the network less prone to overfitting. (explain)
+After these layers, the batch was fed through a global average pooling layer to make the network less prone to overfitting. 
 
 Finally the batch was fed through a classification layer: Each tensor was flattened, a dropout layer applied and finally a linear layer decreasing the 256 outputs to 16, one for each genre.
 
