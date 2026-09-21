@@ -151,5 +151,5 @@ A completely  random guess  in a situation with 16 classes results in an accurac
 
 ## Limitations / Next Steps 
 
-The dataset used for the model was made up of around 14,000 images. In order to improve accuracy, more data could have been sourced and used.  In regards to next steps, unlabelled images could be fed into the data set. In order to improve accuracy, apply transfer learning from a prebuilt model could help
+The dataset used for the model was made up of around 14,000 images. In order to improve accuracy, more data could have been sourced and used.  In regards to next steps, unlabelled images could be fed into the data set. In order to improve accuracy, apply transfer learning from a prebuilt model could help.
 
